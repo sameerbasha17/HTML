@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> AnchorTag attributes </title>
+    </head>
+    <body>
+        <!-- Here we are navigating a page in another folder(locally stored)-->
+        <a href="../HTML-Basic/Headings.html">click here to visit headings page </a><br>
+        <!-- href is the attribute of anchor tag <a> , and we give a URL(Uniform Resource Locater)-->
+
+        <!-- Now, let's see how to specify a external link to the "href" attribute -->
+         <a href ="https://w3schools.com">visit the w3schools website </a><br>
+         
+         <a href="w3schools.com">visit the w3schools, without specifying https(won't work) </a> <!-- atleast it use http to specify external url/link-->
+         <br>
+         <a href="www.google.com">visit w3schools using www. </a> =>not preffered because it always won't work so use "https" or "http".
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Chatgpt suggestions :
+
+Without https:// — Relative Link Problem
+<a href="w3schools.com">visit the w3schools, without specifying https</a>
+❌ This does not point to the real website.
+The browser treats it as a relative URL, meaning it looks for a file named w3schools.com in your current folder — which usually doesn’t exist.
+So, it may lead to a “Page Not Found” (404) error or stay on the same page.
+
+target="_blank" → opens the link in a new tab.
+
+rel="noopener noreferrer" → adds security and privacy when opening new tabs. 
+-->
+
+
+<!-- Difference between URL and link -->
+<!--
+URL(Uniform Resource Locater) : It's an address to an resource(like webpage,image,video etc... in the internet)
+Link: it's a clickable element or text that takes u to that address-->
