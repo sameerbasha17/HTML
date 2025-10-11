@@ -28,6 +28,7 @@ This repository contains my **HTML programs** that demonstrate various basic to 
 | [Image Attributes](HTML-Attributes/ImageTag.html)      | Covers `width`, `height`, `src`, `alt` attributes  |
 | [Style Attribute](HTML-Attributes/Style.html)          | Demonstrates inline styling with `style` attribute |
 | [Title Attribute](HTML-Attributes/Title.html)          | Shows the use of `title` attribute                 |
+| [Style-02 Attribute](HTML-Attributes/styles/styles.html) | Demonstates the use of HTML `style` attribute to apply inline CSS properties (more detaily) |
 
 
 ## 📂 Folder Structure
